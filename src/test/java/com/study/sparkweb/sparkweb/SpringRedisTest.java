@@ -47,5 +47,7 @@ public class SpringRedisTest {
         redisTemplate.opsForList().leftPush("foo","zhangsan");
     }
 
+    public void testA() {
 
+    }
 }
