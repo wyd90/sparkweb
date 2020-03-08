@@ -104,5 +104,10 @@ public class SpringHBaseTest {
         hbaseTemplate.delete("ns12:t1","r00001","f1","name");
     }
 
+    @Test
+    public void addTestData() {
+        hbaseTemplate.put("ns12:t1","r00005","f1","name",Bytes.toBytes("aa"));
+    }
+
 
 }
