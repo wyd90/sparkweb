@@ -42,5 +42,10 @@ public class SpringRedisTest {
         }
     }
 
+    @Test
+    public void testLPut() {
+        redisTemplate.opsForList().leftPush("foo","zhangsan");
+    }
+
 
 }
