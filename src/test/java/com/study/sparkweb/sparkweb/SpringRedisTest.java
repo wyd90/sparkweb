@@ -52,6 +52,6 @@ public class SpringRedisTest {
     }
 
     public void testFrom1315() {
-        
+
     }
 }
